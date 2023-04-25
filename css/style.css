@@ -54,7 +54,7 @@
   --grey: #6b6b6b;
   --white: #ffffff;
   --beige: #D6CEC7;
-  --brown-20: #f5f3f1;
+  --brown-20: #faa84a1b;
   --yellow-20: #f8eddf;
   
 }
@@ -139,12 +139,7 @@ img{
     grid-column-gap: 10px;
 }
 
-/*Lieferung*/
 
-.social-icons-top i{
-    color: var(--black);
-    margin: 0px 10px;
-}
 
 /* NAVBAR */
 
@@ -153,7 +148,7 @@ img{
     display: block;
 }
 .main-wrapper a{
-    color: #000;
+    color: var(--black);
     text-decoration: none;
 }
 .main-wrapper ul li{
@@ -811,9 +806,9 @@ button:hover{
 /* info_ points */
 
 .info_point_wrapper{
-    background-color: var(--bg-brown);
+    background-color: var(--yellow-20);
     padding-bottom: 0px;    
-    color: var(--white)
+    color: var(--black)
 }
 
 .info_points{
@@ -836,14 +831,13 @@ button:hover{
 
 .info_point_text h5{
     font-family: 'DM Sans Serif';
-    color: var(--white);
     font-size: 18px;
 }
 
 .info_point_text p{
     font-family: 'DM Sans Serif';
-    color: var(--white);
     font-size: 14px;
+    color: var(--black);
 }
 
 
@@ -1010,8 +1004,16 @@ button:hover{
 
 /*Copyright*/
 
+
+/*Lieferung*/
+
+.social-icons-top i{
+    color: var(--white);
+    padding-left: 20px;
+}
+
 .copyright-wrapper{
-    background-color: var(--brown-20);
+    background-color: var(--black);
     color: var(--black);  
     padding: 5px 0px; 
 }
@@ -1025,13 +1027,13 @@ button:hover{
 }
 
 .copyright_link{
-    color: var(--black);  
-    margin: 0px 5px;
+    color: var(--white);  
 }
 
-@media screen and (max-width:)
+@media screen and (max-width:){
 .copyright_link_wrapper{
 
+}
 }
 
 @media screen and (max-width:740px){
@@ -1145,16 +1147,54 @@ button:hover{
 
 .product_page .product_text{
     margin-top: 20px;
+    padding-left: 80px;
 }
 
 .product_page .product_text img{
     width: 15%;
 }
  
-.product_page img:hover{
-    transform: scale(1.05);
+/*.product_page img:hover{
+    transform: scale(1.0);
     transition: 300ms ease-in-out;
     overflow: hidden;
+}*/
+
+  
+
+#product_image_sessel_1:hover{
+    content: url(../images/sessel_category/sessel1_hover.jpg);
+}
+
+#product_image_sessel_2:hover{
+    content: url(../images/sessel_category/sessel2_hover.jpg);
+}
+#product_image_sessel_3:hover{
+    content: url(../images/sessel_category/sessel3_hover.jpg);
+}
+#product_image_sessel_4:hover{
+    content: url(../images/sessel_category/sessel4_hover.jpg);
+}
+#product_image_sessel_5:hover{
+    content: url(../images/sessel_category/sessel5_hover.jpg);
+}
+#product_image_sessel_6:hover{
+    content: url(../images/sessel_category/sessel6_hover.jpg);
+}
+#product_image_sessel_7:hover{
+    content: url(../images/sessel_category/sessel7_hover.jpg);
+}
+#product_image_sessel_8:hover{
+    content: url(../images/sessel_category/sessel8_hover.jpg);
+}
+#product_image_sessel_9:hover{
+    content: url(../images/sessel_category/sessel9_hover.jpg);
+}
+#product_image_sessel_10:hover{
+    content: url(../images/sessel_category/sessel10_hover.jpg);
+}
+#product_image_sessel_11:hover{
+    content: url(../images/sessel_category/sessel11_hover.jpg);
 }
 
 
@@ -1169,6 +1209,8 @@ button:hover{
     grid-column: 2/3;
     grid-row: 1/2;
 }
+
+
 
 
 .product2 { 
@@ -1240,6 +1282,9 @@ button:hover{
         grid-row-gap: 75px;
         margin-top: 20px;
         padding: 0px 20px;
+    }
+    .product_image{
+        padding: 15px;
     }
     .filter{ 
         grid-column: 1/3;
@@ -1315,6 +1360,9 @@ button:hover{
         grid-row-gap: 50px;
         margin-top: 20px;
         padding: 0px 20px;
+    }
+    .product_image{
+        padding: 0px;
     }
     .filter{ 
         grid-row: 1/2;
@@ -1720,6 +1768,8 @@ button:hover{
     margin-bottom: 5px;
 }
 
+
+
 .product_info_right{
     text-align: right;
 }
@@ -1755,3 +1805,25 @@ button:hover{
 ******************Mini Cart*********************
 *************************************************/
 
+
+
+/*************************************************
+******************further Information*************
+*************************************************/
+
+.further_infos{
+    margin: auto;
+}
+
+.further_infos p{
+    margin-bottom: 10px;
+}
+
+.further_infos h3{
+    margin-bottom:10px;
+}
+
+.further_infos h4{
+    text-decoration: underline; 
+    margin-bottom:10px;
+}
