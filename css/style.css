@@ -1202,6 +1202,41 @@ button:hover{
 }
 
 
+#product_image_sofa_1:hover{
+    content: url(../images/sofa_category/sofa1_hover.jpg);
+}
+
+#product_image_sofa_2:hover{
+    content: url(../images/sofa_category/sofa2_hover.jpg);
+}
+#product_image_sofa_3:hover{
+    content: url(../images/sofa_category/sofa3_hover.jpg);
+}
+#product_image_sofa_4:hover{
+    content: url(../images/sofa_category/sofa4_hover.jpg);
+}
+#product_image_sofa_5:hover{
+    content: url(../images/sofa_category/sofa5_hover.jpg);
+}
+#product_image_sofa_6:hover{
+    content: url(../images/sofa_category/sofa6_hover.jpg);
+}
+#product_image_sofa_7:hover{
+    content: url(../images/sofa_category/sofa7_hover.jpg);
+}
+#product_image_sofa_8:hover{
+    content: url(../images/sofa_category/sofa8_hover.jpg);
+}
+#product_image_sofa_9:hover{
+    content: url(../images/sofa_category/sofa9_hover.jpg);
+}
+#product_image_sofa_10:hover{
+    content: url(../images/sofa_category/sofa10_hover.jpg);
+}
+#product_image_sofa_11:hover{
+    content: url(../images/sofa_category/sofa11_hover.jpg);
+}
+
 
 .filter{ 
     grid-column: 1/2;
