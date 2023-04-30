@@ -1935,3 +1935,29 @@ button:hover{
     text-decoration: underline; 
     margin-bottom:10px;
 }
+
+
+/*************************************************
+*****************Shopping Cart*******************
+*************************************************/
+
+.shopping_cart_clicker{
+    position: relative;
+}
+
+.shopping_cart{
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    display: none;
+    width:500px;
+    height: 300px;
+    padding: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.shopping_cart_clicker:hover .shopping_cart{
+    display:block;
+    background-color: var(--white);
+}
