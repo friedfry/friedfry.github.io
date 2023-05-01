@@ -1060,7 +1060,7 @@ button:hover{
 
 .copyright_link{
     color: var(--white);  
-    margin-left: 25px;
+    margin-right: 25px;
 }
 
 @media screen and (max-width:){
